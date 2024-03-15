@@ -1,0 +1,45 @@
+/* main container styling */
+.home-container{
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.color-palette{
+    color: rgb(91,219,148);   /* nice green */
+    color: rgb(6,57,107);      /* blending links color*/
+    color: rgb(238,244,224);    /* nice text color */
+    color: rgb(56,149,131) ;    /* another blend of green*/
+    color: rgb(68,161,111);   /*lighter shade */
+    color: rgb(141,228,175);   /* another shaded*/
+}
+
+/* header section */
+
+.home-header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(141,228,175); 
+    color: rgb(6,57,107);  
+}
+
+.home-logo-tagline{
+   display: flex;
+   align-items: center;
+   width: 75%;
+   justify-content: space-between;
+}
+
+.home-logo-img-container{
+    width: 120px;
+    height: 90px;
+    img{
+        width: 100%;
+        display: block;
+        height: 100%;
+    }
+}
+
+.home-header-tagline{
+    text-align: center;
+}
