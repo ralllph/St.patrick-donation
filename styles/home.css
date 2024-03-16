@@ -33,13 +33,74 @@
 .home-logo-img-container{
     width: 120px;
     height: 90px;
-    img{
-        width: 100%;
-        display: block;
-        height: 100%;
-    }
 }
 
-.home-header-tagline{
+.home-logo-img-container>img{
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+
+/* Nav section */
+.home-nav{
     text-align: center;
+    padding: 10px;
+    color: rgb(6,57,107);  
+    background-color: rgb(141,228,175); 
+    border: 1px solid rgb(6,57,107); 
+}
+
+.home-nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-nav-tier1-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.home-nav-tier1-list>li{
+    display: inline-block;
+    position:relative;
+}
+
+.home-nav-tier2-list{
+    list-style-type: none;
+    position: absolute;
+    width: 200px;
+    background-color: rgba(240, 240, 240, 0.91);
+    text-align: left;
+    box-shadow: 0 0 5px rgb(6,57,107); 
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+    transition: 1s ease-in-out;
+}
+
+.home-nav-tier1-list li:hover ul{
+    display: block;
+    opacity: 1;
+    max-height: 300px;
+    visibility: visible;
+    padding: 0;
+}
+
+.home-nav-tier2-list li a{
+    color: rgb(6,57,107);  
+    display: block;
+    padding: 10px;
+}
+
+
+.home-nav-tier2-list li:hover a:hover{
+    background-color: rgb(141,228,175);  
+    color: black;
+}
+
+.home-nav-link,.home-nav-sublink{
+    text-decoration: none;
+    padding: 0 30px;
 }
