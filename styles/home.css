@@ -1,8 +1,7 @@
 /* main container styling */
 .home-container{
     width: 80%;
-    border: 1px solid black;
-    margin: auto;
+    margin:20px auto;
 }
 
 .color-palette{
@@ -19,8 +18,9 @@
 .home-header{
     display: flex;
     align-items: center;
-    background-color: rgb(141,228,175); 
-    color: rgb(6,57,107);  
+    background: linear-gradient(to bottom, #4CAF50, #2E7D32);
+    color: white;
+    border-radius: 10px;
 }
 
 .home-logo-tagline{
@@ -31,23 +31,22 @@
 }
 
 .home-logo-img-container{
-    width: 120px;
+    width: 90px;
     height: 90px;
+    border-radius: 50%;
 }
 
-.home-logo-img-container>img{
+.home-logo-img-container>a>img{
     width: 100%;
     display: block;
     height: 100%;
+    border-radius: 50%;
 }
 
 /* Nav section */
 .home-nav{
     text-align: center;
     padding: 10px;
-    color: rgb(6,57,107);  
-    background-color: rgb(141,228,175); 
-    border: 1px solid rgb(6,57,107); 
 }
 
 .home-nav a{
@@ -103,4 +102,5 @@
 .home-nav-link,.home-nav-sublink{
     text-decoration: none;
     padding: 0 30px;
+    color: green;
 }
