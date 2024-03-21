@@ -123,3 +123,45 @@
 .home-heading-texts{
     text-align: center;
 }
+
+
+/* clip section 1 */
+.home-clip-section-1,.home-clip-section-2{
+    display: grid;
+    padding-top: 40px;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: 
+    "text  clip"
+    "text clip"
+    "nothing clip"
+    ;
+}
+
+.home-clip-section-2{
+    grid-template-areas: 
+    "clip text"
+    "clip text "
+    "clip text"
+    ;
+}
+
+.home-clip-section-1-text cont, .home-clip-section-2-text-cont{
+    grid-area: text;
+}
+
+.home-clip-section-1-img cont, .home-clip-section-2-img-cont{
+    grid-area: clip;
+}
+
+.home-clip-section-1-img, .home-clip-section-2-img{
+    background-image: url("../images/clip-1.jpg");
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.home-clip-section-2-img{
+    background-image: url("../images/clip-2.jpg");
+    clip-path: polygon(0 3%, 84% 4%, 100% 50%, 88% 95%, 0 95%, 8% 51%)
+}
