@@ -4,6 +4,7 @@
     margin:20px auto;
 }
 
+/* general styling */
 .color-palette{
     color: rgb(91,219,148);   /* nice green */
     color: rgb(6,57,107);      /* blending links color*/
@@ -11,6 +12,10 @@
     color: rgb(56,149,131) ;    /* another blend of green*/
     color: rgb(68,161,111);   /*lighter shade */
     color: rgb(141,228,175);   /* another shaded*/
+}
+
+.heading-texts-coloured{
+    color: green;
 }
 
 /* header section */
@@ -103,4 +108,18 @@
     text-decoration: none;
     padding: 0 30px;
     color: green;
+}
+
+
+/* ero section */
+.home-hero-section{
+    background-image: url("../images/hero.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.home-heading-texts{
+    text-align: center;
 }
