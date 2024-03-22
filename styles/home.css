@@ -165,3 +165,44 @@
     background-image: url("../images/clip-2.jpg");
     clip-path: polygon(0 3%, 84% 4%, 100% 50%, 88% 95%, 0 95%, 8% 51%)
 }
+
+/* Card section */
+.home-card-section-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 20px;
+    margin: 20px;
+    font-size: 17px;
+}
+
+.home-cards-section>h2{
+    text-align: center;
+}
+
+.home-cards-donor{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    box-shadow:  0 0 5px green;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px green;
+}
+
+.home-cards-donor img{
+    height: 400px;
+    order: -1;
+}
+.home-cards-donor h3{
+    margin: 20px 0 0 0 ;
+}
+.home-cards-donor button{
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+}
+
