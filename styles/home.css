@@ -54,6 +54,10 @@
     padding: 10px;
 }
 
+.home-nav-link:hover{
+    color:  rgb(6,57,107);   
+}
+
 .home-nav a{
     text-decoration: none;
     font-weight: bold;
