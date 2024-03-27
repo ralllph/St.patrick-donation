@@ -18,6 +18,14 @@
     color: green;
 }
 
+.hero-section{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+
 /* header section */
 
 .home-header{
@@ -115,13 +123,9 @@
 }
 
 
-/* ero section */
+/* hero section */
 .home-hero-section{
-    background-image: url("../images/hero.jpg");
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
+    background-image: url("../media/images/hero.jpg");
 }
 
 .home-heading-texts{
@@ -159,14 +163,14 @@
 }
 
 .home-clip-section-1-img, .home-clip-section-2-img{
-    background-image: url("../images/clip-1.jpg");
+    background-image: url("../media/images/clip-1.jpg");
     height: 450px;
     background-size: cover;
     background-position: center;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 .home-clip-section-2-img{
-    background-image: url("../images/clip-2.jpg");
+    background-image: url("../media/images/clip-2.jpg");
     clip-path: polygon(0 3%, 84% 4%, 100% 50%, 88% 95%, 0 95%, 8% 51%)
 }
 
